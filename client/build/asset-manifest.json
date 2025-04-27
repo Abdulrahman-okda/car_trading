@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.238b6a12.css",
+    "main.js": "/static/js/main.32f18fc9.js",
+    "static/media/Gana Car.png": "/static/media/Gana Car.43de5247056b50972ca6.png",
+    "static/media/Gana trading.jpg": "/static/media/Gana trading.204775e1673fe6f56429.jpg",
+    "static/media/Gana_trading.png": "/static/media/Gana_trading.7e322658e83de52cf824.png",
+    "index.html": "/index.html",
+    "main.238b6a12.css.map": "/static/css/main.238b6a12.css.map",
+    "main.32f18fc9.js.map": "/static/js/main.32f18fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238b6a12.css",
+    "static/js/main.32f18fc9.js"
+  ]
+}

@@ -1,0 +1,122 @@
+.about-page {
+    font-family: "Cairo", sans-serif;
+    padding-bottom: 50px;
+}
+
+/* الهيرو */
+.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../image/Gana\ trading.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* احصائيات */
+.about-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.about-stats .stat {
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+.stat p {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Timeline */
+.timeline-section {
+    margin-top: 80px;
+}
+
+.timeline-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #007bff;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 45%;
+}
+
+.timeline-item:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.timeline-item:nth-child(even) {
+    align-self: flex-end;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content span {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.timeline-content p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 100%;
+    }
+}

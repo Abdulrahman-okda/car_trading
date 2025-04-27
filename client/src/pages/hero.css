@@ -1,0 +1,37 @@
+.hero {
+    background: url('../image/Gana\ trading.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 73vh;
+    position: relative;
+    top: 7px;
+    color: #fff;
+}
+
+.lead {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #ab98ff, #abbffb36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
