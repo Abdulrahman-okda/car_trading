@@ -58,10 +58,24 @@ body {
 
 /* تنسيقات تفاصيل المنتج */
 .product-details {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
+    overflow: hidden;
+}
+
+@media(min-width:1200px)and (max-width:2000px) {
+    .product-details {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:850px) {
+    .product-details {
+        display: grid !important;
+        grid-template-columns: 1fr;
+    }
 }
 
 .car-images {
